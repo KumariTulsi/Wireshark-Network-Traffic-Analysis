@@ -3,12 +3,12 @@ Hands-on project on analyzing network traffic using Wireshark to detect anomalie
 
 
 ## Objective
-The aim of this project was to understand and analyze network traffic using Wireshark to detect anomalies and suspicious activity.
+The aim of this project was to understand and analyze network traffic using Wireshark to identify potential security threats, suspicious activities, and gain hands-on experience in packet-level investigation — an essential skill for a SOC Analyst.
 
 ## Tools Used
-- Wireshark
-- Kali Linux / Ubuntu
-- TryHackMe (Wireshark: The Basics)
+- Wireshark – For capturing and analyzing network packets.
+- Kali Linux / Ubuntu – Operating system environment for running Wireshark.
+- TryHackMe (Wireshark: The Basics) – Lab environment for practice.
 
 ## Methodology
 1. Installed and configured Wireshark  
@@ -18,9 +18,9 @@ The aim of this project was to understand and analyze network traffic using Wire
 5. Captured evidence with screenshots  
 
 ## Findings
-- Suspicious DNS requests detected  
-- Multiple failed TCP connection attempts  
-- Unencrypted HTTP traffic observed  
+- Detected unusual DNS requests to suspicious domains.  
+- Observed multiple failed TCP connection attempts indicating possible scanning activity.
+- Noticed unencrypted HTTP traffic, making data vulnerable to sniffing. 
 
 ## Conclusion
-This project improved my SOC Analyst skills by practicing packet analysis, filtering, and identifying suspicious traffic.
+This project provided practical exposure to network traffic analysis, a core SOC analyst skill. By completing this exercise, I developed the ability to filter and analyze packets, detect anomalies, and document security incidents effectively.
